@@ -14,6 +14,7 @@
 		415E718A280F285800840E3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 415E7189280F285800840E3F /* Assets.xcassets */; };
 		415E718D280F285800840E3F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 415E718B280F285800840E3F /* LaunchScreen.storyboard */; };
 		415E719A2810284200840E3F /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 415E71992810284200840E3F /* StorageManager.swift */; };
+		415E719D281083E200840E3F /* Alert Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 415E719C281083E200840E3F /* Alert Controller.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		415E718C280F285800840E3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		415E718E280F285800840E3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		415E71992810284200840E3F /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
+		415E719C281083E200840E3F /* Alert Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Alert Controller.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,12 +60,12 @@
 		415E717C280F285600840E3F /* TaskHW */ = {
 			isa = PBXGroup;
 			children = (
-				415E7197281027CA00840E3F /* App */,
 				415E71942810274300840E3F /* ViewControllers */,
+				415E719B2810284600840E3F /* Managers */,
+				415E7197281027CA00840E3F /* App */,
+				415E71982810281000840E3F /* CoreData */,
 				415E71952810275300840E3F /* Resources */,
 				415E71962810276E00840E3F /* Storyboards */,
-				415E71982810281000840E3F /* CoreData */,
-				415E719B2810284600840E3F /* Managers */,
 			);
 			path = TaskHW;
 			sourceTree = "<group>";
@@ -72,6 +74,7 @@
 			isa = PBXGroup;
 			children = (
 				415E7181280F285600840E3F /* TaskListViewController.swift */,
+				415E719C281083E200840E3F /* Alert Controller.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -193,6 +196,7 @@
 				415E719A2810284200840E3F /* StorageManager.swift in Sources */,
 				415E717E280F285600840E3F /* AppDelegate.swift in Sources */,
 				415E7180280F285600840E3F /* SceneDelegate.swift in Sources */,
+				415E719D281083E200840E3F /* Alert Controller.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
